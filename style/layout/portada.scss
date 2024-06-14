@@ -1,0 +1,24 @@
+.sect_portada {
+    margin-left: 5% ;
+    margin-right: 5% ;
+    .port_contPrin {
+        .port_contSecond {
+            .port_image {
+                width: 200px ;
+                height: 200px ;
+                border-radius: 50% ;
+            }
+        }
+        .port_contSecond {
+            .port_span {}
+            .port_title {}
+            .port_subtitle {}
+            .port_contBtn {
+                .port_button {}
+            }
+            .port_contRS {
+                .port_btnRS {}
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sebadevs.studio",
+  "version": "1.0.0",
+  "description": "Study of Development and programing App Webs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/sebadevs.studio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/sebadevs.studio/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/sebadevs.studio#readme"
+}
