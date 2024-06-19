@@ -1,23 +1,48 @@
+@import '../components/fonts.scss' ;
+@import '../components/color.scss' ;
+@import '../components/utils.scss' ;
+
+
 .sect_portada {
     margin-left: 5% ;
     margin-right: 5% ;
+
     .port_contPrin {
+        text-align: center ;
+
         .port_contSecond {
+            height: 240px ;
+
             .port_image {
                 width: 200px ;
                 height: 200px ;
                 border-radius: 50% ;
+                display: block ;
+                margin: auto ;
+
             }
         }
         .port_contSecond {
-            .port_span {}
-            .port_title {}
-            .port_subtitle {}
-            .port_contBtn {
-                .port_button {}
+            text-align: center ;
+
+            .port_span {
+                @include fontSpan ;
             }
-            .port_contRS {
-                .port_btnRS {}
+
+            .port_title {
+                @include fontTitle ;
+            }
+
+            .port_subtitle {
+                font-family: $famiMont ;
+                font-size: 25px ;
+                font-weight: 400 ;
+                color: $color_blackLig ;
+            }
+            .port_contBtn {
+                .port_button {
+                    @include buttons ;
+                }
             }
         }
     }

@@ -1,0 +1,15 @@
+@mixin buttons {
+    border: solid 2px black ;
+    border-radius: 30px ;
+    padding: 10px ;
+    font-family: $famiRobo ;
+    font-size: 16px ;
+    font-weight: 400 ;
+    color: black ;
+}
+
+ @mixin cards {
+    border: solid 2px black ;
+    border-radius: 17px ;
+    padding: 10px ;
+ }

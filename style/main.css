@@ -6,6 +6,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -69,8 +81,138 @@ main {
   margin-left: 5%;
   margin-right: 5%;
 }
+.sect_portada .port_contPrin {
+  text-align: center;
+}
+.sect_portada .port_contPrin .port_contSecond {
+  height: 240px;
+}
 .sect_portada .port_contPrin .port_contSecond .port_image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.sect_portada .port_contPrin .port_contSecond {
+  text-align: center;
+}
+.sect_portada .port_contPrin .port_contSecond .port_span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_portada .port_contPrin .port_contSecond .port_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.sect_portada .port_contPrin .port_contSecond .port_subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_portada .port_contPrin .port_contSecond .port_contBtn .port_button {
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+
+.sect_about {
+  text-align: center;
+}
+.sect_about .about_contTitle .about_span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_about .about_contTitle .about_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.sect_about .about_contPrin .about_contSecond1 .about_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 17px;
+}
+.sect_about .about_contPrin .about_contSecond2 .about_contCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card {
+  border: solid 2px black;
+  border-radius: 17px;
+  padding: 10px;
+}
+.sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_img {
+  width: 50px;
+  height: 50px;
+}
+.sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_about .about_contPrin .about_contSecond3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424949;
+  margin-top: 25px;
+}
+
+.sect_services .serv_contTitle .serv_span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424949;
+}
+.sect_services .serv_contTitle .serv_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.sect_services .serv_contPrin .serv_card {
+  border: solid 2px black;
+  border-radius: 17px;
+  padding: 10px;
+}
+.sect_services .serv_contPrin .serv_card .serv_cardTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+.sect_services .serv_contPrin .serv_card .esp_cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sect_services .serv_contPrin .serv_card .esp_cont .esp_img {
+  width: 20px;
+  height: 20px;
+}
+.sect_services .serv_contPrin .serv_card .esp_cont .esp_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424949;
 }/*# sourceMappingURL=main.css.map */

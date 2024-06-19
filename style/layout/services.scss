@@ -1,0 +1,39 @@
+@import '../components/fonts.scss' ;
+@import '../components/color.scss' ;
+@import '../components/utils.scss' ;
+
+.sect_services {
+    .serv_contTitle {
+        .serv_span {
+            @include fontSpan ;
+        }
+
+        .serv_title {
+            @include fontTitle ;
+        }
+    }
+    .serv_contPrin {
+        .serv_card {
+            @include cards ;
+
+            .serv_cardTitle {
+                font-family: $famiRobo ;
+                font-size: 20px ;
+                font-weight: 400 ;
+                color: black ;
+            }
+
+            .esp_cont {
+                display: grid ;
+                grid-template-columns: repeat(2, 1fr) ;
+                .esp_img {
+                    width: 20px ;
+                    height: 20px ;
+                }
+                .esp_text {
+                    @include fontText ;
+                }
+            }
+        }
+    }
+}
