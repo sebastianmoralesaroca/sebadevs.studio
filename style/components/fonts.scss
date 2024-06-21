@@ -21,7 +21,7 @@ $famiMont: "Montserrat", sans-serif ;
 
 @mixin fontSpan {
     font-family: $famiMont ;
-    font-size: 14px ;
+    font-size: 17px ;
     font-weight: 400 ;
     color: $color_blackLig ;
 }
@@ -31,4 +31,11 @@ $famiMont: "Montserrat", sans-serif ;
     font-size: 18px ;
     font-weight: 400 ;
     color: $color_blackLig ;
+}
+
+@mixin fontTitleCard {
+    font-family: $famiRobo ;
+    font-size: 25px ;
+    font-weight: 400 ;
+    color: black ;
 }

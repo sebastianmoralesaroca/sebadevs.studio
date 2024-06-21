@@ -19,3 +19,15 @@
         }
     }
 }
+
+.footer {
+    margin-top: 80px ;
+
+    .foot_containerPrincipal {
+        text-align: center ;
+
+        .foot_text {
+            @include fontText ;
+        }
+    }
+}

@@ -29,4 +29,17 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 5%;
+}
+
+.footer {
+  margin-top: 80px;
+}
+.footer .foot_containerPrincipal {
+  text-align: center;
+}
+.footer .foot_containerPrincipal .foot_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424949;
 }/*# sourceMappingURL=headerFooter.css.map */

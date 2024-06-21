@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.sect_services {
+  margin-top: 80px;
+}
+.sect_services .serv_contTitle {
+  text-align: center;
+}
 .sect_services .serv_contTitle .serv_span {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -18,24 +24,32 @@
   border: solid 2px black;
   border-radius: 17px;
   padding: 10px;
+  margin-top: 20px;
 }
 .sect_services .serv_contPrin .serv_card .serv_cardTitle {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   color: black;
+  text-align: center;
 }
-.sect_services .serv_contPrin .serv_card .esp_cont {
+.sect_services .serv_contPrin .serv_card .serv_contGrilla {
+  text-align: -moz-center;
+}
+.sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 120px;
+  margin-top: 10px;
 }
-.sect_services .serv_contPrin .serv_card .esp_cont .esp_img {
-  width: 20px;
-  height: 20px;
+.sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_img {
+  width: 32px;
+  height: 32px;
 }
-.sect_services .serv_contPrin .serv_card .esp_cont .esp_text {
+.sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_text {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #424949;
+  font-size: 22px;
 }/*# sourceMappingURL=services.css.map */

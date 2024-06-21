@@ -23,6 +23,7 @@
             }
         }
         .about_contSecond2 {
+            margin-top: 25px ;
             .about_contCard {
                 display: grid ;
                 grid-template-columns: repeat(2, 1fr);
@@ -42,6 +43,7 @@
 
                     .about_card_text {
                         @include fontText ;
+                        font-size: 15px ;
                     }
                 }
             }

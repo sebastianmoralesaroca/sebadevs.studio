@@ -40,6 +40,11 @@
                 color: $color_blackLig ;
             }
             .port_contBtn {
+                display: grid ;
+                grid-template-columns: repeat(2, 1fr) ;
+                gap: 20px ;
+                padding: 0px 30px ;
+                margin-top: 20px ;
                 .port_button {
                     @include buttons ;
                 }

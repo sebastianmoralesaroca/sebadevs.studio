@@ -22,6 +22,9 @@
   height: 200px;
   border-radius: 17px;
 }
+.sect_about .about_contPrin .about_contSecond2 {
+  margin-top: 25px;
+}
 .sect_about .about_contPrin .about_contSecond2 .about_contCard {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -47,6 +50,7 @@
   font-size: 18px;
   font-weight: 400;
   color: #424949;
+  font-size: 15px;
 }
 .sect_about .about_contPrin .about_contSecond3 {
   font-family: "Roboto", sans-serif;

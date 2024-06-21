@@ -1,0 +1,25 @@
+@import '../components/fonts.scss' ;
+@import '../components/color.scss' ;
+@import '../components/utils.scss' ;
+
+.section_contact {
+    margin-top: 80px ;
+
+    .cont_containerPrincipal {
+        text-align: center ;
+
+        .cont_span {
+            @include fontSpan ;
+        }
+
+        .cont_title {
+            @include fontTitle ;
+        }
+
+        .cont_button {
+            @include  buttons ;
+            margin-top: 25px ;
+            padding: 20px 30px ;
+        }
+    }
+}

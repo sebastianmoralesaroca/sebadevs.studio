@@ -1,0 +1,39 @@
+@import '../components/color.scss' ;
+@import '../components/fonts.scss' ;
+@import '../components/utils.scss' ;
+
+.sect_project {
+    margin-top: 80px;
+
+    .cont_title {
+        text-align: center ;
+        .proy_span {
+            @include fontSpan ;
+        }
+
+        .proy_title {
+            @include fontTitle ;
+        }
+    }
+    .proy_containerPrincipal {
+        .proy_containerCard {
+            @include cards ;
+            text-align: center ;
+            margin-top: 25px ;
+
+            .proy_cardImage {
+                width: 100% ;
+                height: 150px ;
+                border-radius: 10px 10px 0px 0px ;
+            }
+
+            .proy_cardTitle {
+                @include fontTitleCard ;
+            }
+
+            .proy_cardButton {
+                @include buttons ;
+            }
+        }
+    }
+}

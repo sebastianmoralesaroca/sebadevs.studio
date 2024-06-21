@@ -1,1 +1,33 @@
-/*# sourceMappingURL=contact.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.section_contact {
+  margin-top: 80px;
+}
+.section_contact .cont_containerPrincipal {
+  text-align: center;
+}
+.section_contact .cont_containerPrincipal .cont_span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #424949;
+}
+.section_contact .cont_containerPrincipal .cont_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.section_contact .cont_containerPrincipal .cont_button {
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-top: 25px;
+  padding: 20px 30px;
+}/*# sourceMappingURL=contact.css.map */
