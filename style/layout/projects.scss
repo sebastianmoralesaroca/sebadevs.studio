@@ -20,19 +20,26 @@
             @include cards ;
             text-align: center ;
             margin-top: 25px ;
+            padding: 10px 10px;
 
             .proy_cardImage {
                 width: 100% ;
-                height: 150px ;
+                height: 160px ;
                 border-radius: 10px 10px 0px 0px ;
             }
 
             .proy_cardTitle {
                 @include fontTitleCard ;
+                margin-top: 45px ;
+                margin-bottom: 10px ;
             }
 
             .proy_cardButton {
                 @include buttons ;
+            }
+
+            .span_btnProy {
+                padding: 3% ;
             }
         }
     }

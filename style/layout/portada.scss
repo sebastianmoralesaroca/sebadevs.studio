@@ -36,18 +36,15 @@
             .port_subtitle {
                 font-family: $famiMont ;
                 font-size: 25px ;
-                font-weight: 400 ;
+                font-weight: 500 ;
                 color: $color_blackLig ;
+                margin-bottom: 20px ;
             }
-            .port_contBtn {
-                display: grid ;
-                grid-template-columns: repeat(2, 1fr) ;
-                gap: 20px ;
-                padding: 0px 30px ;
-                margin-top: 20px ;
-                .port_button {
-                    @include buttons ;
-                }
+            .port_button {
+                @include buttons ;
+            }
+            .span_btnPortada {
+                padding: 3% ;
             }
         }
     }

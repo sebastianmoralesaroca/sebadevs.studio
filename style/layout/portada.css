@@ -31,28 +31,29 @@
 .sect_portada .port_contPrin .port_contSecond .port_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_portada .port_contPrin .port_contSecond .port_subtitle {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: #424949;
+  margin-bottom: 20px;
 }
-.sect_portada .port_contPrin .port_contSecond .port_contBtn {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 0px 30px;
-  margin-top: 20px;
-}
-.sect_portada .port_contPrin .port_contSecond .port_contBtn .port_button {
+.sect_portada .port_contPrin .port_contSecond .port_button {
   border: solid 2px black;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 10px 5%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: black;
+  background-color: transparent;
+}
+.sect_portada .port_contPrin .port_contSecond .port_button:hover {
+  background-color: #dfdfdf;
+}
+.sect_portada .port_contPrin .port_contSecond .span_btnPortada {
+  padding: 3%;
 }/*# sourceMappingURL=portada.css.map */

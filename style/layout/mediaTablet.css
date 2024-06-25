@@ -1,0 +1,33 @@
+/*
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
+@media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
+  .port_contBtn {
+    padding: 125px;
+  }
+  .serv_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .proy_containerPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}/*# sourceMappingURL=mediaTablet.css.map */

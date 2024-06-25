@@ -10,24 +10,30 @@
 }
 .section_contact .cont_containerPrincipal .cont_span {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
   color: #424949;
 }
 .section_contact .cont_containerPrincipal .cont_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
-.section_contact .cont_containerPrincipal .cont_button {
+.section_contact .cont_containerPrincipal .mail {
   border: solid 2px black;
   border-radius: 30px;
-  padding: 10px;
+  padding: 10px 5%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: black;
-  margin-top: 25px;
-  padding: 20px 30px;
+  background-color: transparent;
+  margin: auto;
+  width: 20%;
+  padding: 20px 5%;
+  margin-top: 50px;
+}
+.section_contact .cont_containerPrincipal .mail:hover {
+  background-color: #dfdfdf;
 }/*# sourceMappingURL=contact.css.map */

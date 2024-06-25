@@ -1,0 +1,22 @@
+@import '../components/mediaQueris.scss' ;
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+
+    .port_contBtn {
+        padding: 125px ;
+    }
+
+    .serv_contPrin {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 20px ;
+    }
+
+    .proy_containerPrincipal {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 20px ;
+    }
+
+}

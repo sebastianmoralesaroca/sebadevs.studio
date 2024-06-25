@@ -1,0 +1,93 @@
+/*
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
+@media screen and (min-width: 990px) {
+  .header .header_container {
+    margin-bottom: 60px;
+  }
+  .sect_portada .port_contPrin {
+    margin-bottom: 55px;
+  }
+  .sect_portada .port_contPrin .port_contSecond {
+    height: 280px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_image {
+    width: 250px;
+    height: 250px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_span {
+    font-size: 18px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_title {
+    font-size: 55px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_subtitle {
+    font-size: 32px;
+  }
+  .sect_about {
+    margin: 0% 5%;
+    height: 500px;
+  }
+  .sect_about .about_contTitle {
+    margin-bottom: 20px;
+  }
+  .sect_about .about_contTitle .about_span {
+    font-size: 18px;
+  }
+  .sect_about .about_contTitle .about_title {
+    font-size: 55px;
+  }
+  .sect_about .about_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sect_about .about_contPrin .about_contSecond1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .sect_about .about_contPrin .about_contSecond1 .about_image {
+    width: 300px;
+    height: 300px;
+  }
+  .sect_about .about_contPrin .about_contSecond2 .about_contCard {
+    margin-bottom: 15px;
+  }
+  .sect_services {
+    margin: 0% 20%;
+    height: 500px;
+  }
+  .sect_services .serv_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .sect_project {
+    margin: 0% 20%;
+    height: 500px;
+  }
+  .proy_containerPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .section_contact .cont_containerPrincipal .cont_button {
+    font-size: 22px;
+    padding: 20px 50px;
+  }
+}/*# sourceMappingURL=mediaDesktop.css.map */

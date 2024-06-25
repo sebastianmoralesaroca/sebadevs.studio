@@ -1,0 +1,130 @@
+@import '../components/mediaQueris.scss' ;
+
+// Media Desktop Tall
+@media screen and (min-width: $media-medium)  {
+
+.header {
+    .header_container {
+        margin-bottom: 60px ;
+    }
+}
+
+.sect_portada {
+    .port_contPrin {
+        margin-bottom: 55px ;
+        .port_contSecond {
+            height: 280px ;
+            .port_image {
+                width: 250px ;
+                height: 250px ;
+            }
+        }
+        .port_contSecond {
+            .port_span {
+                font-size: 18px ;
+            }
+            .port_title {
+                font-size: 55px ;
+            }
+
+            .port_subtitle {
+                font-size: 32px ;
+            }
+            .port_button {
+
+            }
+            .span_btnPortada {
+
+            }
+        }
+    }
+}
+.sect_about {
+    margin: 0% 5% ;
+    height: 500px ;
+    .about_contTitle {
+        margin-bottom: 20px ;
+        .about_span {
+            font-size: 18px ;
+        }
+
+        .about_title {
+            font-size: 55px ;
+        }
+    }
+    .about_contPrin {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr);
+        .about_contSecond1 {
+            display: flex ;
+            justify-content: center ;
+            align-content: center ;
+            .about_image {
+                width: 300px ;
+                height: 300px ;
+            }
+        }
+        .about_contSecond2 {
+            .about_contCard  {
+                margin-bottom: 15px ;
+                .about_card {
+                    .about_card_img {}
+                    .about_card_title {}
+                    .about_card_text {}
+                }
+            }
+        }
+        .about_contSecond3 {}
+    }
+}
+.sect_services {
+    margin: 0% 20% ;
+    height: 500px ;
+    .serv_contTitle {
+        .serv_span {}
+        .serv_title {}
+    }
+    .serv_contPrin {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 50px ;
+        .serv_card {
+            .serv_cardTitle {}
+            .serv_contGrilla {
+                .esp_cont {
+                    .esp_img {}
+                    .esp_text {}
+                }
+            }
+        }
+    }
+}
+.sect_project {
+    margin: 0% 20% ;
+    height: 500px ;
+    .cont_title {}
+        .proy_title {}
+    }
+    .proy_containerPrincipal {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 50px ;
+        .proy_containerCard {
+            .proy_cardImage {}
+            .proy_cardTitle {}
+            .proy_cardButton {}
+            .span_btnProy {}
+        }
+    }
+.section_contact {
+    .cont_containerPrincipal {
+        .cont_span {}
+        .cont_title {}
+        .cont_button {
+        font-size: 22px ;
+        padding: 20px 50px ;
+    }
+    }
+}
+
+}

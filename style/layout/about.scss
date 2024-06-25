@@ -28,17 +28,22 @@
                 display: grid ;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px ;
+                margin-bottom: 10px ;
 
                 .about_card {
                     @include cards ;
+                    padding: 13px ;
 
                     .about_card_img {
                         width: 50px ;
                         height: 50px ;
+                        margin-bottom: 7px ;
                     }
 
                     .about_card_title {
                         @include fontSpan ;
+                        margin-bottom: 3px ;
+                        font-weight: 600 ;
                     }
 
                     .about_card_text {
@@ -48,9 +53,8 @@
                 }
             }
         }
-        .about_contSecond3 {
-            @include fontText ;
-            margin-top: 25px ;
-        }
+            .about_text {
+                @include fontText ;
+            }
     }
 }

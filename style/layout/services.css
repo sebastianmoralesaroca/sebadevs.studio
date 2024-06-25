@@ -10,26 +10,26 @@
 }
 .sect_services .serv_contTitle .serv_span {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
   color: #424949;
 }
 .sect_services .serv_contTitle .serv_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_services .serv_contPrin .serv_card {
   border: solid 2px black;
   border-radius: 17px;
-  padding: 10px;
   margin-top: 20px;
+  padding: 30px 10px;
 }
 .sect_services .serv_contPrin .serv_card .serv_cardTitle {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
   text-align: center;
 }
@@ -38,9 +38,9 @@
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 120px;
-  margin-top: 10px;
+  grid-template-columns: 30% 120%;
+  width: 40%;
+  margin-top: 25px;
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_img {
   width: 32px;
@@ -48,8 +48,9 @@
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_text {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #424949;
   font-size: 22px;
+  text-align: start;
 }/*# sourceMappingURL=services.css.map */

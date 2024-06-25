@@ -34,8 +34,7 @@
 }
 
 main {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0% 5%;
 }
 
 /*
@@ -64,13 +63,27 @@ main {
 }
 
 main {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0% 5%;
 }
 
-.header {
-  background-color: antiquewhite;
-}
+/*
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
 .header .header_container {
   width: 100%;
   height: 120px;
@@ -93,7 +106,7 @@ main {
 }
 .footer .foot_containerPrincipal .foot_text {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #424949;
 }
@@ -127,30 +140,31 @@ main {
 .sect_portada .port_contPrin .port_contSecond .port_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_portada .port_contPrin .port_contSecond .port_subtitle {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: #424949;
+  margin-bottom: 20px;
 }
-.sect_portada .port_contPrin .port_contSecond .port_contBtn {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 0px 30px;
-  margin-top: 20px;
-}
-.sect_portada .port_contPrin .port_contSecond .port_contBtn .port_button {
+.sect_portada .port_contPrin .port_contSecond .port_button {
   border: solid 2px black;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 10px 5%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: black;
+  background-color: transparent;
+}
+.sect_portada .port_contPrin .port_contSecond .port_button:hover {
+  background-color: #dfdfdf;
+}
+.sect_portada .port_contPrin .port_contSecond .span_btnPortada {
+  padding: 3%;
 }
 
 .sect_about {
@@ -165,7 +179,7 @@ main {
 .sect_about .about_contTitle .about_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_about .about_contPrin .about_contSecond1 .about_image {
@@ -180,35 +194,38 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  margin-bottom: 10px;
 }
 .sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card {
   border: solid 2px black;
   border-radius: 17px;
-  padding: 10px;
+  padding: 13px;
 }
 .sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_img {
   width: 50px;
   height: 50px;
+  margin-bottom: 7px;
 }
 .sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_title {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 400;
   color: #424949;
+  margin-bottom: 3px;
+  font-weight: 600;
 }
 .sect_about .about_contPrin .about_contSecond2 .about_contCard .about_card .about_card_text {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #424949;
   font-size: 15px;
 }
-.sect_about .about_contPrin .about_contSecond3 {
+.sect_about .about_contPrin .about_text {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #424949;
-  margin-top: 25px;
 }
 
 .sect_services {
@@ -226,19 +243,19 @@ main {
 .sect_services .serv_contTitle .serv_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_services .serv_contPrin .serv_card {
   border: solid 2px black;
   border-radius: 17px;
-  padding: 10px;
   margin-top: 20px;
+  padding: 30px 10px;
 }
 .sect_services .serv_contPrin .serv_card .serv_cardTitle {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
   text-align: center;
 }
@@ -247,9 +264,9 @@ main {
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 120px;
-  margin-top: 10px;
+  grid-template-columns: 30% 120%;
+  width: 40%;
+  margin-top: 25px;
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_img {
   width: 32px;
@@ -257,10 +274,11 @@ main {
 }
 .sect_services .serv_contPrin .serv_card .serv_contGrilla .esp_cont .esp_text {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #424949;
   font-size: 22px;
+  text-align: start;
 }
 
 .sect_project {
@@ -278,35 +296,44 @@ main {
 .sect_project .cont_title .proy_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
 .sect_project .proy_containerPrincipal .proy_containerCard {
   border: solid 2px black;
   border-radius: 17px;
-  padding: 10px;
   text-align: center;
   margin-top: 25px;
+  padding: 10px 10px;
 }
 .sect_project .proy_containerPrincipal .proy_containerCard .proy_cardImage {
   width: 100%;
-  height: 150px;
+  height: 160px;
   border-radius: 10px 10px 0px 0px;
 }
 .sect_project .proy_containerPrincipal .proy_containerCard .proy_cardTitle {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
+  margin-top: 45px;
+  margin-bottom: 10px;
 }
 .sect_project .proy_containerPrincipal .proy_containerCard .proy_cardButton {
   border: solid 2px black;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 10px 5%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: black;
+  background-color: transparent;
+}
+.sect_project .proy_containerPrincipal .proy_containerCard .proy_cardButton:hover {
+  background-color: #dfdfdf;
+}
+.sect_project .proy_containerPrincipal .proy_containerCard .span_btnProy {
+  padding: 3%;
 }
 
 .section_contact {
@@ -324,17 +351,150 @@ main {
 .section_contact .cont_containerPrincipal .cont_title {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   color: black;
 }
-.section_contact .cont_containerPrincipal .cont_button {
+.section_contact .cont_containerPrincipal .mail {
   border: solid 2px black;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 10px 5%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: black;
-  margin-top: 25px;
-  padding: 20px 30px;
+  background-color: transparent;
+  margin: auto;
+  width: 20%;
+  padding: 20px 5%;
+  margin-top: 50px;
+}
+.section_contact .cont_containerPrincipal .mail:hover {
+  background-color: #dfdfdf;
+}
+
+/*
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
+@media screen and (min-width: 575px) and (max-width: 990px) and (orientation: portrait) {
+  .port_contBtn {
+    padding: 125px;
+  }
+  .serv_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .proy_containerPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+/*
+
+// Media Desktop Tall
+@media screen and (min-width: $media-tall)  {}
+
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) and (orientation:portrait) {}
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {}
+
+// Media Movil Rotate
+@media screen and (min-width: $media-small-xs) and (max-width: $media-tall) and (orientation:landscape) {}
+
+*/
+@media screen and (min-width: 990px) {
+  .header .header_container {
+    margin-bottom: 60px;
+  }
+  .sect_portada .port_contPrin {
+    margin-bottom: 55px;
+  }
+  .sect_portada .port_contPrin .port_contSecond {
+    height: 280px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_image {
+    width: 250px;
+    height: 250px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_span {
+    font-size: 18px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_title {
+    font-size: 55px;
+  }
+  .sect_portada .port_contPrin .port_contSecond .port_subtitle {
+    font-size: 32px;
+  }
+  .sect_about {
+    margin: 0% 5%;
+    height: 500px;
+  }
+  .sect_about .about_contTitle {
+    margin-bottom: 20px;
+  }
+  .sect_about .about_contTitle .about_span {
+    font-size: 18px;
+  }
+  .sect_about .about_contTitle .about_title {
+    font-size: 55px;
+  }
+  .sect_about .about_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sect_about .about_contPrin .about_contSecond1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .sect_about .about_contPrin .about_contSecond1 .about_image {
+    width: 300px;
+    height: 300px;
+  }
+  .sect_about .about_contPrin .about_contSecond2 .about_contCard {
+    margin-bottom: 15px;
+  }
+  .sect_services {
+    margin: 0% 20%;
+    height: 500px;
+  }
+  .sect_services .serv_contPrin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .sect_project {
+    margin: 0% 20%;
+    height: 500px;
+  }
+  .proy_containerPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .section_contact .cont_containerPrincipal .cont_button {
+    font-size: 22px;
+    padding: 20px 50px;
+  }
 }/*# sourceMappingURL=main.css.map */
